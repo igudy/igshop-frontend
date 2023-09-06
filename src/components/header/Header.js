@@ -28,7 +28,7 @@ const logo = (
   <div className={styles.logo}>
     <Link to="/">
       <h2>
-        iG<span>Shop</span>.
+        Premium<span>Gadgets</span>.
       </h2>
     </Link>
   </div>

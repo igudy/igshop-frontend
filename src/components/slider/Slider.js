@@ -19,15 +19,15 @@ const Slider = () => {
           <h2>{t("welcome")}</h2>
           <p>Up to 30% off on all onsale proucts.</p>
           <hr />
-          <a href="product" className='"--btn--btn-primary'>
-            Shop Now
-          </a>
+          <div className="language-background">
+            <div className="language">
+              <p onClick={() => changeLanguage("en")}>English</p>
+              <p onClick={() => changeLanguage("hausa")}>Hausa</p>
+              <p onClick={() => changeLanguage("igbo")}>Igbo</p>
+              <p onClick={() => changeLanguage("yoruba")}>Yoruba</p>
+            </div>
+          </div>
 
-          {/* Internatinalization */}
-          <p onClick={() => changeLanguage("hausa")}>English</p>
-          <p onClick={() => changeLanguage("hausa")}>Hausa</p>
-          <p onClick={() => changeLanguage("igbo")}>Igbo</p>
-          <p onClick={() => changeLanguage("yoruba")}>Yoruba</p>
           {/* End of internalization */}
         </div>
       </div>
